@@ -9,10 +9,10 @@ class Auth{
     // }
 
     // autoinit and declare class fields
-    constructor(public user?: string, private password?: number) {
-        this.user = user;
-        this.password = password;
+    constructor(public user?: string, private password?: number){
+        // no need to this. crap
     }
+
 
     // get/set prvt fields
     get getUser(){
