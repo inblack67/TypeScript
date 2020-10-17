@@ -1,0 +1,13 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aman Bhardwaj",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
