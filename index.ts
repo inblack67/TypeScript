@@ -62,3 +62,13 @@ const data = [{
 }];
 
 projects(data);
+
+// function signature
+let addProject: (pro: project) => project;
+addProject = (pro) => pro;
+addProject({
+    title: 'Blogs',
+    id: 1,
+    url: 'vercel.com',
+    stack: ['next.js']
+})
